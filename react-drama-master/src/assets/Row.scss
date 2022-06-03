@@ -1,0 +1,43 @@
+.Row {
+    color: #fff;
+    
+    h2 {
+        margin-left: 20px;
+    }
+
+    &-posters {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-bottom: 50px;
+    }
+  
+    &-poster {
+      object-fit: contain;
+      max-height: 100px;
+      transition: transform 450ms;
+  
+      &-large {
+        max-height: 250px;
+  
+        &:hover {
+          transform: scale(1.09);
+        }
+      }
+  
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  
+    &-youtube {
+      text-align: center;
+    }
+  }
+  
+  .slick-dots li button:before {
+    color: #ddd !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color:#fff !important;
+  }
