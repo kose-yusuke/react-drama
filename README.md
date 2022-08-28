@@ -1,2 +1,2 @@
-# react-drama
-#社用のgithubから移行 0603
+# netflix サイトUIのクローン(React練習用)
+
